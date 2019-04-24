@@ -7,7 +7,7 @@ img {
 
 a {
     text-decoration: none;
-    
+    color:#1da1f2; 
 }
 
 a:hover { 
@@ -41,4 +41,8 @@ a:hover {
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+  .fa-map-marker-alt {
+    color: #1da1f2;  
   }
