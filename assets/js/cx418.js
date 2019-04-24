@@ -5,7 +5,8 @@
     $('#templateMenu').load("/assets/templates/topmenu.html");
     $('#contactTemplate').load("/assets/templates/contact.html");
     $('#footerTemplate').load("/assets/templates/footer.html"); 
-    $('#commanditairesTemplate').load("/assets/templates/commanditaires.html"); 
+    $('#commanditairesTemplateHaut').load("/assets/templates/commanditaires.html"); 
+    $('#commanditairesTemplateBas').load("/assets/templates/commanditaires.html"); 
 
   })
 
