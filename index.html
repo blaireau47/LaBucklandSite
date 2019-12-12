@@ -24,36 +24,6 @@ body {font-family: "Lato", sans-serif}
   gtag('js', new Date());
 
   gtag('config', 'UA-139935247-1');
-
-  var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
 </script>
 
 
@@ -98,31 +68,14 @@ function showSlides(n) {
     <p class="w3-opacity">L'édition 2020 acceptera uniquement les 150 premieres inscriptions.</p>
     
     <div class="w3-row-padding">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fevelyne.gagnon3%2Fposts%2F10156695656455779&width=500" width="350" height="237" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>          
-          </div>
-              
-          <div class="mySlides fade">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdavid.desjardins.3762%2Fposts%2F2648023155424835&width=500" width="350" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="mySlides fade">
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdavid.desjardins.3762%2Fposts%2F2648023155424835&width=500" width="350" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="mySlides fade">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdavid.desjardins.3762%2Fposts%2F2648023155424835&width=500" width="350" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-          </div>                      
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
+      <div class="w3-half w3-margin-bottom w3-margin-bottom columnEqual">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fevelyne.gagnon3%2Fposts%2F10156695656455779&width=500" width="350" height="237" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>          
+      </div>
+         
+      <div class="w3-half w3-margin-bottom w3-margin-bottom columnEqual">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdavid.desjardins.3762%2Fposts%2F2648023155424835&width=500" width="350" height="161" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </div>
+
     </div>
 
     <div class="w3-row-padding">
@@ -303,6 +256,5 @@ function showSlides(n) {
 
 </body>
 </html>
-
 
 
