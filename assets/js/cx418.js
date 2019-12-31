@@ -2,7 +2,7 @@
 
 
   $(function(){
-    if(Window.href.contains("/en/")){
+    if(Window.href.includes("/en/")){
       $('#templateMenu').load("/assets/templates/topmenuEn.html");
 
     }else{    $('#templateMenu').load("/assets/templates/topmenu.html");
