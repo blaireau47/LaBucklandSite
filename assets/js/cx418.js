@@ -2,7 +2,11 @@
 
 
   $(function(){
-    $('#templateMenu').load("/assets/templates/topmenu.html");
+    if(Window.href.contains("/en/")){
+      $('#templateMenu').load("/assets/templates/topmenuEn.html");
+
+    }else{    $('#templateMenu').load("/assets/templates/topmenu.html");
+  }
     $('#contactTemplate').load("/assets/templates/contact.html");
     $('#footerTemplate').load("/assets/templates/footer.html"); 
     $('#commanditairesTemplateHaut').load("/assets/templates/commanditaires.html"); 
