@@ -8,8 +8,9 @@
     }else{    $('#templateMenu').load("/assets/templates/topmenu.html");
   }
     $('#contactTemplate').load("/assets/templates/contact.html");
-    $('#footerTemplate').load("/assets/templates/footer.html"); 
+    $('#commanditairesRides').load("/assets/templates/commanditairesRides.html"); 
     $('#commanditairesTemplateHaut').load("/assets/templates/commanditaires.html"); 
+    $('#footerTemplateRides').load("/assets/templates/footerRides.html"); 
     $('#commanditairesTemplateBas').load("/assets/templates/commanditaires.html"); 
 
   })

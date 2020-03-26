@@ -31,3 +31,14 @@
   display: inline-block;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.explication{
+  font-family: Acherus Grotesque;
+  font-size: small;
+}
+
+
+
