@@ -199,3 +199,17 @@ a:hover {
   border-width: 2px;
   border-color:red;
 }
+
+.cardHeight{
+  height: 400px;
+}
+
+.cardHeightLong{
+  height: 550px;
+}
+
+.cloud_bottom {
+  position: relative; 
+  bottom: 0;
+  float:right;
+}
