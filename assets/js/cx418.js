@@ -12,7 +12,9 @@
     $('#commanditairesTemplateHaut').load("/assets/templates/commanditaires.html"); 
     $('#footerTemplateRides').load("/assets/templates/footerRides.html"); 
     $('#commanditairesTemplateBas').load("/assets/templates/commanditaires.html"); 
+    $('#messageCovid').load("/assets/templates/messageCovid.html"); 
 
+    
   })
 
 

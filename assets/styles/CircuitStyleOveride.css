@@ -202,14 +202,17 @@ a:hover {
 
 .cardHeight{
   height: 400px;
+  position: relative;
 }
 
 .cardHeightLong{
   height: 550px;
+  position: relative;
 }
 
 .cloud_bottom {
-  position: relative; 
+  position: absolute; 
   bottom: 0;
-  float:right;
+  float:left;
 }
+
