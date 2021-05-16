@@ -215,3 +215,10 @@ a:hover {
   float:left;
 }
 
+@media only screen and (min-width: 800px) {
+  .smallscreen { display: none; }
+}
+@media only screen and (max-width: 800px) {
+.smallscreen { display: block; }
+}
+
