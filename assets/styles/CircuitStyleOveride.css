@@ -198,10 +198,18 @@ a:hover {
   border-width: 2px;
   border-color:red;
 }
+@media only screen and (max-width: 800px) {
+  .cardHeight{
+    height: 420px;
+    position: relative;
+  }
+}
 
-.cardHeight{
-  height: 350px;
-  position: relative;
+@media only screen and (min-width: 800px) {
+  .cardHeight{
+    height: 350px;
+    position: relative;
+  }
 }
 
 .cardHeightLong{
